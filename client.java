@@ -117,13 +117,13 @@ public class client {
 
         // ------Label-----------------
         JLabel enter = new JLabel("Enter your name");
-        frame1.add(enter, new GridBagConstraints(0, 2, 1, 1, 1.0, 1.0, GridBagConstraints.CENTER,
+        frame1.add(enter, new GridBagConstraints(0, 1, 1, 1, 1.0, 1.0, GridBagConstraints.CENTER,
                 GridBagConstraints.NONE, new Insets(0, 0, 0, 0), 0, 0));
         // ----------------------------
 
         // ------Username Textfield-------
         JTextField usernameTextArea = new JTextField(10);
-        frame1.add(usernameTextArea, new GridBagConstraints(0, 3, 1, 1, 1.0, 1.0, GridBagConstraints.CENTER,
+        frame1.add(usernameTextArea, new GridBagConstraints(0, 2, 1, 1, 1.0, 1.0, GridBagConstraints.CENTER,
                 GridBagConstraints.NONE, new Insets(0, 0, 0, 0), 0, 0));
 
         // ---------IPaddress---------
